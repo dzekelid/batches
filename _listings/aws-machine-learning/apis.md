@@ -36,7 +36,7 @@ apis:
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/batches/master/_listings/aws-machine-learning/action-getbatchprediction-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/batches/master/_listings/aws-machine-learning/action-updatebatchprediction-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
