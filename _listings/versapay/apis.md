@@ -32,7 +32,7 @@ apis:
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-processing-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-completed-get.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
