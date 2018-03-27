@@ -16,9 +16,9 @@ tags:
 - Google APIs
 - Content
 - Commerce
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/batches/master/_listings/google-content-api-for-shopping/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/google-content-api-for-shopping/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Content API for Shopping API
@@ -29,7 +29,7 @@ apis:
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/batches/master/_listings/google-content-api-for-shopping/products-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/google-content-api-for-shopping/accountshipping-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
