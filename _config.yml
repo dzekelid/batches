@@ -4,7 +4,7 @@ url: batches.streamdata.gallery
 tag: Batches
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-type
+github_user: streamdata-gallery-topics
 github_repo: batches
 github_branch: master
 collections:
