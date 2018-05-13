@@ -37,16 +37,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-updatebatchprediction-get.md
-- name: AWS Machine Learning API Describe Batch Predictions
-  description: Returns a list of BatchPrediction operations that match the search
-    criteria in the request.
+- name: AWS Machine Learning API Get Batch Prediction
+  description: |-
+    Returns a BatchPrediction that includes detailed metadata, status, and data file information for a
+                Batch Prediction request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-describebatchpredictions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-getbatchprediction-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
