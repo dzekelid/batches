@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Describe Batch Predictions
   version: 1.0.0
+  description: Returns a list of BatchPrediction operations that match the search
+    criteria in the request.
 schemes:
 - http
 produces:
