@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Update Batch Prediction
   version: 1.0.0
+  description: Updates the BatchPredictionName of a BatchPrediction.
 schemes:
 - http
 produces:
