@@ -33,17 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-completed-get.md
-- name: VersaPay View In-Progress & Completed Batches
-  description: View recent in-progress and completed import batches.
+- name: VersaPay View In-Progress Batches
+  description: View only recent in-progress import batches.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-processing-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/versapay/api-imports-processing-get-postman.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/
