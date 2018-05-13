@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Get Batch Prediction
   version: 1.0.0
+  description: |-
+    Returns a BatchPrediction that includes detailed metadata, status, and data file information for a
+                Batch Prediction request.
 schemes:
 - http
 produces:
