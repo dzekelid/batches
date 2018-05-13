@@ -30,16 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/google-content-api-for-shopping/products-batch-post.md
-- name: Google Content API for Shopping API Account Batches
-  description: Retrieves and updates the shipping settings of multiple accounts in
-    a single request.
+- name: Google Content API for Shopping API Product Batches
+  description: Retrieves, inserts, and deletes multiple products in a single request.
+    This method can only be called for non-multi-client accounts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/google-content-api-for-shopping/accountshipping-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/google-content-api-for-shopping/products-batch-post.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
