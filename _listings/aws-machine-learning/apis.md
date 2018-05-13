@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-updatebatchprediction-get.md
-- name: AWS Machine Learning API Create Batch Prediction
-  description: Generates predictions for a group of observations.
+- name: AWS Machine Learning API Delete Batch Prediction
+  description: Assigns the DELETED status to a BatchPrediction, rendering it unusable.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Batches
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-createbatchprediction-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/action-deletebatchprediction-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
