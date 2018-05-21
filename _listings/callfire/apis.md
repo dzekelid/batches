@@ -1,5 +1,6 @@
 ---
 name: CallFire
+x-slug: callfire
 description: CallFire is a cloud-based telephony company that provides voice and text
   connectivity services. It offers the necessary tools for businesses to communicate
   and market effectively. The company works to provide a diverse line of innovative
@@ -7,19 +8,99 @@ description: CallFire is a cloud-based telephony company that provides voice and
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Voice
-- Telco
-- Stack Network
-- SMS
-- Partners
-- Messaging
-- Getting Started
-created: "2018-05-12"
-modified: "2018-05-12"
+tags: Batches
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Callfire Find batches in a call broadcast
+  x-api-slug: callfire
+  description: This endpoint will enable the user to page through all of the batches
+    for a particular voice broadcast campaign
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//calls/broadcasts/{id}/batches
+  tags: Calls,Broadcasts,Batches
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-get-openapi.md
+- name: Callfire Add batches to a call broadcast
+  x-api-slug: callfire
+  description: The 'add batch' API allows user to add additional batches to an already
+    created voice broadcast campaign. The added batch will go through the CallFire
+    validation process, unlike in the recipients version of this API. That is why
+    you can use the scrubDuplicates flag to remove duplicates from your batch. Batches
+    may be added as a contact list id, a list of contact ids, or a list of numbers
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//calls/broadcasts/{id}/batches
+  tags: Calls,Broadcasts,Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-post-openapi.md
+- name: Callfire Find a specific batch
+  x-api-slug: callfire
+  description: Returns a single Batch instance for a given batch id. This API is useful
+    for determining the state of a validating batch
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//campaigns/batches/{id}
+  tags: Campaigns,Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/campaignsbatchesid-get-openapi.md
+- name: Callfire Update a batch
+  x-api-slug: callfire
+  description: Updates a single Batch instance, currently batch can only be turned
+    "on/off"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//campaigns/batches/{id}
+  tags: Campaigns,Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/campaignsbatchesid-put-openapi.md
+- name: Callfire Find batches in a text broadcast
+  x-api-slug: callfire
+  description: This endpoint will enable the user to page through all of the batches
+    for a particular text broadcast campaign
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//texts/broadcasts/{id}/batches
+  tags: Texts,Broadcasts,Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/textsbroadcastsidbatches-get-openapi.md
+- name: Callfire Add batches to a text broadcast
+  x-api-slug: callfire
+  description: Allows adding an extra batches to an already created text broadcast
+    campaign. The batches which being  added pass the CallFire validation process
+    (unlike in the recipients version of this API). That is why using of a scrubDuplicates
+    flag remove duplicates from your batch. Batches may be added as a contact list
+    id, a list of contact ids, or a list of numbers
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//texts/broadcasts/{id}/batches
+  tags: Texts,Broadcasts,Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/textsbroadcastsidbatches-post-openapi.md
+- name: Callfire
+  x-api-slug: callfire
+  description: CallFire is a cloud-based telephony company that provides voice and
+    text connectivity services. It offers the necessary tools for businesses to communicate
+    and market effectively. The company works to provide a diverse line of innovative
+    products that enable its users to get their messages delivered.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: Batches
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/openapi.md
 x-common:
 - type: x-net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
