@@ -47,6 +47,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Batches
 x-streamrank:
   polling_total_time_average: 0

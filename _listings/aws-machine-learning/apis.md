@@ -18,10 +18,10 @@ description: Amazon Machine Learning is a service that makes it easy for develop
   go, so you can start small and scale as your application grows.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Batches
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/actioncreatebatchprediction-get-openapi.md
@@ -41,7 +41,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/actiondeletebatchprediction-get-openapi.md
@@ -52,7 +52,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeBatchPredictions
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/actiondescribebatchpredictions-get-openapi.md
@@ -64,7 +64,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/actiongetbatchprediction-get-openapi.md
@@ -74,7 +74,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateBatchPrediction
-  tags: Batches
+  tags: Machine Learning,Batches
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/aws-machine-learning/actionupdatebatchprediction-get-openapi.md

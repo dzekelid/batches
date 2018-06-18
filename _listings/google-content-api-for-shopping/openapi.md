@@ -4,7 +4,7 @@ x-collection-name: Google Content API for Shopping
 x-complete: 1
 info:
   title: Content API for Shopping
-  description: manages-product-items-inventory-and-merchant-center-accounts-for-google-shopping
+  description: manages-product-items-inventory-and-merchant-center-accounts-for-google-shopping-
   contact:
     name: Google
     url: https://google.com
