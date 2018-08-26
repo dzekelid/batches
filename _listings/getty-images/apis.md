@@ -8,42 +8,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Batches
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Getty Images Reports Usage Batches
-  x-api-slug: getty-images
-  description: "# Report Usage\r\n\r\nUse this endpoint to report the usages of a
-    set of assets. The count of assets submitted in a single batch to this endpoint
-    is limited to 1000. Note that all asset Ids specified must be valid or the operation
-    will fail causing no usages to be recorded. In this case, you will need to remove
-    the invalid asset Ids from the query request and re-submit the query.\r\n\r\n##
-    \ Quickstart\r\n\r\nYou'll need an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
-    access token to use this resource.\r\nPlease see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
-    page for more information on how to sign up for an API key. \r\n\r\n\r\n_Note_:
-    Date of use can be in any unambiguous date format."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/usage-batches/{id}
-  tags: Images,Batches
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/getty-images/v3usagebatchesid-put-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: Find high resolution royalty-free images, editorial stock photos, vector
-    art, video footage clips and stock music licensing at the richest image search
-    photo library online.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com//
-  tags: Batches
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/getty-images/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://getstream.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://getty.images.stack.network
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
 - type: x-base
