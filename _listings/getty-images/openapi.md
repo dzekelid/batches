@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Getty Images
 x-complete: 1
@@ -49,4 +48,3 @@ paths:
       tags:
       - Images
       - Batches
----

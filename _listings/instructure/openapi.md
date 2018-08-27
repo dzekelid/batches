@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,16 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /conversations/batches:
+    get:
+      summary: Get running batches
+      description: Get running batches.
+      operationId: get-running-batches
+      x-api-path-slug: conversationsbatches-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Conversations
+      - Batches

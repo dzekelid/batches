@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Batches
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,77 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-get-openapi.md
+- name: CallFire - Add batches to a call broadcast
+  x-api-slug: callsbroadcastsidbatches-post
+  description: The 'add batch' API allows user to add additional batches to an already
+    created voice broadcast campaign. The added batch will go through the CallFire
+    validation process, unlike in the recipients version of this API. That is why
+    you can use the scrubDuplicates flag to remove duplicates from your batch. Batches
+    may be added as a contact list id, a list of contact ids, or a list of numbers
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/callsbroadcastsidbatches-post-openapi.md
+- name: CallFire - Find a specific batch
+  x-api-slug: campaignsbatchesid-get
+  description: Returns a single Batch instance for a given batch id. This API is useful
+    for determining the state of a validating batch
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/campaignsbatchesid-get-openapi.md
+- name: CallFire - Update a batch
+  x-api-slug: campaignsbatchesid-put
+  description: Updates a single Batch instance, currently batch can only be turned
+    "on/off"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/campaignsbatchesid-put-openapi.md
+- name: CallFire - Find batches in a text broadcast
+  x-api-slug: textsbroadcastsidbatches-get
+  description: This endpoint will enable the user to page through all of the batches
+    for a particular text broadcast campaign
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/textsbroadcastsidbatches-get-openapi.md
+- name: CallFire - Add batches to a text broadcast
+  x-api-slug: textsbroadcastsidbatches-post
+  description: Allows adding an extra batches to an already created text broadcast
+    campaign. The batches which being  added pass the CallFire validation process
+    (unlike in the recipients version of this API). That is why using of a scrubDuplicates
+    flag remove duplicates from your batch. Batches may be added as a contact list
+    id, a list of contact ids, or a list of numbers
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/batches/master/_listings/callfire/textsbroadcastsidbatches-post-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
